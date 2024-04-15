@@ -7,9 +7,9 @@ import os
 #
 
 # #set as environment variables
-# APP_ID = os.environ["APP_ID"]
-# API_KEY = os.environ["API_KEY"]
-# BEARER_TOKEN=os.environ["BEARER"]
+APP_ID = os.environ["NUTRIONIXAPPID"]
+API_KEY = os.environ["NUTRITIONIX_API_KEY"]
+BEARER_TOKEN=os.environ["BEARER_TOKEN"]
 
 
 exercise_input=input("What exercise did you do today?")
