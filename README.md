@@ -1,8 +1,3 @@
-# workouts
-
-Updating Google sheets exercise workout log with LLM workout input
-
-
 # Project
 
 **Workouts** - Code to automate updating google sheets exercise workout log
@@ -10,8 +5,15 @@ Updating Google sheets exercise workout log with LLM workout input
 
 ## Description
 
-Input exercise
+After inputting an exercise and food in the command line, it fetches data from the NutritionIX API. Then it inputs it into a Google Sheet workout tracker as a new log, automatically calculating the estimated calories burned, calories eaten, and other nutritional data.
 
+<p align="center">
+  <img height="100%" src="workout_cmdline_screenshot.PNG">
+</p>
+<br/>
+<p align="center">
+  <img height="100%" src="workout_sheets_screenshot.PNG">
+</p>
 
 ## Authors
 
