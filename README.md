@@ -5,7 +5,7 @@
 
 ## Description
 
-After inputting an exercise and food in the command line, it fetches data from the NutritionIX API. Then it inputs it into a Google Sheet workout tracker as a new log, automatically calculating the estimated calories burned, calories eaten, and other nutritional data.
+After inputting an exercise and food in the command line, it fetches data from the NutritionIX API (which uses an LLM to interpret the inputted text as natural language). Then it inputs it into a Google Sheet workout tracker as a new log, automatically calculating the estimated calories burned, calories eaten, and other nutritional data.
 
 <p align="center">
   <img height="100%" src="workout_cmdline_screenshot.PNG">
